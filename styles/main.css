@@ -17,7 +17,7 @@ a:hover {
 
 ul {list-style-type: none;}
 
-button {text-align: center;}
+button {position: center;}
 
 hr {
     margin-top: 0px;
