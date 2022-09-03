@@ -12,10 +12,12 @@ profile_pic = current_dir / "assets" / "profile-pic (16).png"
 PAGE_TITLE = "Digital CV | Peter Hrubos"
 PAGE_ICON = "random" #":wave:"
 NAME = "Peter Hrubos"
-DESCRIPTION = """
-            - ★   Assisting enterprises by supporting data-driven decision-making.
-            - ★   Finding ways to use Python and SQL to be more efficient and effective in business settings
+DESCRIPTION1 = """
+            - ★ Assisting enterprises by supporting data-driven decision-making.
                     """
+DESCRIPTION2 ="""
+             - ★ Finding ways to use Python and SQL to be more efficient and effective in business settings
+                """
 EMAIL = "peter.hrubos.szte@gmail.com"
 SOCIAL_MEDIA = {
                 "Facebook" : "https://www.facebook.com",
@@ -43,7 +45,8 @@ with col2:
     st.title(NAME)
     st.write("CE Productivity Process Manager")
     st.write("---")
-    st.write(DESCRIPTION)
+    st.write(DESCRIPTION1)
+    st.write(DESCRIPTION2)
     st.download_button(
         label=" 📋 Download Resume",
         data=PDFbyte,
