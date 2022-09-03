@@ -13,8 +13,8 @@ PAGE_TITLE = "Digital CV | Peter Hrubos"
 PAGE_ICON = "random" #":wave:"
 NAME = "Peter Hrubos"
 DESCRIPTION = """
-                - ☆ Assisting enterprises by supporting data-driven decision-making.
-                - ☆ Finding ways to use Python and SQL to be more efficient and effective in business settings
+                - ★ Assisting enterprises by supporting data-driven decision-making.
+                - ★ Finding ways to use Python and SQL to be more efficient and effective in business settings
                     """
 EMAIL = "peter.hrubos.szte@gmail.com"
 SOCIAL_MEDIA = {
