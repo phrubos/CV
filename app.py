@@ -40,15 +40,15 @@ profile_pic = Image.open(profile_pic)
 col1, col2 = st.columns(2, gap="small")
 with col1:
     st.image(profile_pic, width=230)
-    st.write(DESCRIPTION1)
-    st.write(DESCRIPTION2)
+
+
 
 
 with col2:
     st.title(NAME)
     st.write("CE Productivity Process Manager")
     st.write("---")
-
+    st.write(DESCRIPTION1)
     st.download_button(
         label=" 📋 Download Resume",
         data=PDFbyte,
