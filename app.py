@@ -13,7 +13,7 @@ GITHUB = current_dir / "assets" / "github.png"
 
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "Digital CV | Peter Hrubos"
-PAGE_ICON = "random" #":wave:"
+PAGE_ICON =  " 👔 "
 NAME = "Peter Hrubos"
 DESCRIPTION1 = """
             ★ Assisting enterprises by supporting data-driven decision-making.
@@ -74,18 +74,15 @@ with col_c:
 st.write("---")
 
 # --- SOCIAL LINKS ---
-
+## --- PICTURES UPLOAD ---
 cols = st.columns((2.2,4,1.65,4.1,1.55,3.8))
-# col1 = st.columns(1)
-# with col1:
-#             st.image(FB, width=25)
 index = 0
 for x in [FB, LINKD, GITHUB]:
              index += 1
              pic = Image.open(x)
              cols[index].image(pic, width=25)
              index += 1
-
+## --- LINKS ---
 cols = st.columns((1.5,4,1.5,4,1.5,4))
 index = 0
 for (platform, link) in SOCIAL_MEDIA.items():
