@@ -16,7 +16,7 @@ PAGE_TITLE = "Digital CV | Peter Hrubos"
 PAGE_ICON =  "💼"
 NAME = "Peter Hrubos"
 DESCRIPTION1 = """
-            ★ Assisting enterprises by supporting data-driven decision-making.
+            ★ Assisting the Management/Stakeholders by supporting data-driven decision-making.
                     """
 DESCRIPTION2 ="""
             ★ Finding ways to use Python and SQL to be more efficient and effective in business settings
@@ -136,7 +136,7 @@ st.write("🚧", "**Junior CE Productivity Process Manager | Tesco**")
 st.write("03/2018 - 07/2018")
 st.write(
     """
-- ► Built data models and maps to generate meaningful insights from customer data, boosting successful sales eﬀorts by 12%
+- ► Responsible for measuring, assessing, redesigning processes in order to create a better consumer experience and improving business results.
 - ► Modeled targets likely to renew, and presented analysis to leadership, which led to a YoY revenue increase of $300K
 - ► Compiled, studied, and inferred large amounts of data, modeling information to drive auto policy pricing
 """
