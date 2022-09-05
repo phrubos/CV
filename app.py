@@ -58,14 +58,15 @@ col_a, col_b, col_c = st.columns((1.2,0.8,1))
 with col_a:
                 st.write("📧 ", EMAIL)                     
 with col_b:
+                st.write(":phone: ", PHONE)
+
+                       
+with col_c:
                 st.download_button(
                 label="📋 Download Resume",
                 data=PDFbyte,
                 file_name=resume_file.name,
-                mime = "application/octet-stream",)
-                       
-with col_c:
-            st.write(":phone: ", PHONE) 
+                mime = "application/octet-stream",)  
 # --- SOCIAL LINKS ---
 
 st.write("#")
