@@ -75,7 +75,7 @@ st.write("---")
 # --- SOCIAL LINKS ---
 
 st.write("#")
-cols = st.columns((2.2,4,1.5,4,1.5,4))
+cols = st.columns((2.2,4,1.7,4,1.5,4))
 # col1 = st.columns(1)
 # with col1:
 #             st.image(FB, width=25)
