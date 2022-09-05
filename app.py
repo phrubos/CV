@@ -97,8 +97,8 @@ st.write("#")
 st.subheader("Experience & Qualifications")
 st.write("""
 - ✔️ 7 Years expereince extracting actionable insights from data
-- ✔️ Strong hands on experience and knowledge in Python and Excel
-- ✔️ Good understanding of statistical principles and their respective applications
+- ✔️ Experience and knowledge in Python/SQL and Excel (Power Pivot/Query)
+- ✔️ Willingness to learn, strong commitment to continuous development
 - ✔️ Excellent team-player and displaying strong sense of initiative on tasks
 """)
 
@@ -106,10 +106,9 @@ st.write("""
 st.write("#")
 st.subheader("Hard Skills")
 st.write("""
-- 👩‍💻 Programming: Python (Scikit-learn, Pandas), SQL, VBA
-- 📊 Data Visulization: PowerBi, MS Excel, Plotly
-- 📚 Modeling: Logistic regression, linear regression, decition trees
-- 🗄️ Databases: Postgres, MongoDB, MySQL
+- 👩‍💻 Programming: Python (NumPy, Pandas), SQL, Power Query/Pivot
+- 📊 Data Visulization: MS Excel, Plotly
+- 🗄️ Databases: Hadoop, MySQL
 """)
 
 
