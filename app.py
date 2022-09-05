@@ -16,7 +16,7 @@ PAGE_TITLE = "Digital CV | Peter Hrubos"
 PAGE_ICON =  "💼"
 NAME = "Peter Hrubos"
 DESCRIPTION1 = """
-            ★ Assisting the Management/Stakeholders by supporting data-driven decision-making.
+            ★ Assisting the business strategy by supporting data-driven decision-making.
                     """
 DESCRIPTION2 ="""
             ★ Finding ways to use Python and SQL to be more efficient and effective in business settings
@@ -137,8 +137,8 @@ st.write("03/2018 - 07/2018")
 st.write(
     """
 - ► Responsible for measuring, assessing, redesigning processes in order to create a better consumer experience and improving business results.
-- ► Modeled targets likely to renew, and presented analysis to leadership, which led to a YoY revenue increase of $300K
-- ► Compiled, studied, and inferred large amounts of data, modeling information to drive auto policy pricing
+- ► Supporting budget calculations for every department in Central Europe
+- ► Helping to design ways of working through productivity guidelines.
 """
 )
 
@@ -148,9 +148,9 @@ st.write("🚧", "**HU Productivity Manager | Tesco**")
 st.write("10/2017 - 03/2018")
 st.write(
     """
-- ► Devised KPIs using SQL across company website in collaboration with cross-functional teams to achieve a 120% jump in organic traﬃc
-- ► Analyzed, documented, and reported user survey results to improve customer communication processes by 18%
-- ► Collaborated with analyst team to oversee end-to-end process surrounding customers' return data
+- ► Planning, working out and calculating the budget of HU stores for the beginning of next financial year.
+- ► Analyzing, documenting, and reporting irregular results during budget planning.
+- ► Collaborating with leadership team to oversee new processes, and updates which have been built in the new budget.
 """
 )
 
@@ -160,21 +160,20 @@ st.write("🚧", "**HU Productivity Analyst | Tesco**")
 st.write("08/2015 - 10/2017")
 st.write(
     """
-- ► Devised KPIs using SQL across company website in collaboration with cross-functional teams to achieve a 120% jump in organic traﬃc
-- ► Analyzed, documented, and reported user survey results to improve customer communication processes by 18%
-- ► Collaborated with analyst team to oversee end-to-end process surrounding customers' return data
+- ► Daily requests calculations which help in making a decision related with process improvement on HU stores.
+- ► Updating „Buttom up” model which allows structure planning.
+- ► Collaborating with process managers to oversee end-to-end processes from stores' labor demand point of view. 
 """
 )
 
-# --- JOB 4
+# --- JOB 5
 st.write("#")
 st.write("🚧", "**IT Coordinator | Tesco**")
 st.write("08/2009 - 08/2015")
 st.write(
     """
-- ► Devised KPIs using SQL across company website in collaboration with cross-functional teams to achieve a 120% jump in organic traﬃc
-- ► Analyzed, documented, and reported user survey results to improve customer communication processes by 18%
-- ► Collaborated with analyst team to oversee end-to-end process surrounding customers' return data
+- ► Maintaining the day to day operations of this logistic center from hardware and software point of view
+- ► Reporting software's failure and hardwares being unable to work with.
 """
 )
 
