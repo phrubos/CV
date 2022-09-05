@@ -75,7 +75,7 @@ st.write("---")
 
 st.write("#")
 cols = st.columns(len([FB,LINKD, GITHUB]))
-for x in enumerate([FB,LINKD, GITHUB]):
+for x in [FB,LINKD, GITHUB]:
      for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     
             cols[index].image(Image.open(x), width=20) 
