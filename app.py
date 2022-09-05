@@ -40,7 +40,12 @@ profile_pic = Image.open(profile_pic)
 col1, col2 = st.columns((1,1.5) , gap="small")
 with col1:
     st.image(profile_pic, width=230)
-
+    st.download_button(
+      label="📋 Download Resume",
+      data=PDFbyte,
+      file_name=resume_file.name,
+      mime = "application/octet-stream",
+    )
 
 
 
@@ -49,14 +54,10 @@ with col2:
     st.write("CE Productivity Process Manager")
     st.write("---")
     st.write(DESCRIPTION1)
-    st.write(DESCRIPTION2)      
-    st.download_button(
-        label="- 📋 Download Resume",
-        data=PDFbyte,
-        file_name=resume_file.name,
-        mime = "application/octet-stream",
-    )
-    st.write("- 📧 ", EMAIL)
+    st.write(DESCRIPTION2)
+    st.write("#")
+
+    st.write("📧 ", EMAIL)
 
 
 # --- SOCIAL LINKS ---
