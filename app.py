@@ -37,18 +37,17 @@ profile_pic = Image.open(profile_pic)
 
 
 # --- HERO SECTION ----
-col1, col2 = st.columns((1,1.5) , gap="small")
+col1, col2 = st.columns((1,1) , gap="small")
 with col1:
     st.image(profile_pic, width=230)
     st.markdown('')
-    col1_, col2_, col3_ = st.columns(3 )
-    with col2_:
-           st.download_button(
+
+    st.download_button(
                 label="📋 Download Resume",
                 data=PDFbyte,
                 file_name=resume_file.name,
-                mime = "application/octet-stream",
-                        )
+                mime = "application/octet-stream",)
+                        
 
 
 
@@ -59,7 +58,6 @@ with col2:
     st.write(DESCRIPTION1)
     st.write(DESCRIPTION2)
     st.write("#")
-
     st.write(" - 📧 ", EMAIL)
 
 
