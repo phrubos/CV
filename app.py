@@ -123,9 +123,10 @@ st.write("🚧", "**CE Productivity Process Manager | Tesco**")
 st.write("07/2018 - Present")
 st.write(
     """
-- ► Used PowerBI and SQL to redeﬁne and track KPIs surrounding marketing initiatives, and supplied recommendations to boost landing page conversion rate by 38%
-- ► Led a team of 4 analysts to brainstorm potential marketing and sales improvements, and implemented A/B tests to generate 15% more client leads
-- ► Redesigned data model through iterations that improved predictions by 12%
+- ► Designing and building Data Models by using ETL process (Extract, Transform, Load) and handling Central Europe wide data in order to calculate and predict workload for each activity of a targeted area.
+- ► Building models with usage of 'Maynard Operation Sequence Technique' (MOST) and 'Random Activity Sampling' (RAS).
+- ► The adaptable models are able to calculate different scenarios with the change of 1 or more aspects of the work environment. 
+- ► Gathering, transforming, cleaning data using SQL and Python. Continuously investigating data integrity and developing queries.
 """
 )
 
