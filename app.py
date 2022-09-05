@@ -19,6 +19,7 @@ DESCRIPTION2 ="""
             ★ Finding ways to use Python and SQL to be more efficient and effective in business settings
                 """
 EMAIL = "peter.hrubos.szte@gmail.com"
+PHONE = "+36-20-821-11-77"
 SOCIAL_MEDIA = {
                 "Facebook" : "https://www.facebook.com",
                 "LinkedIn" : "https://www.linkedin.com",
@@ -53,7 +54,7 @@ with col2:
 
 # --- AVAILABILITIES ---
 st.write("---")
-col_a, col_b, col_c = st.columns((1.8,1,0.2))
+col_a, col_b, col_c = st.columns((1.2,0.8,1))
 with col_a:
                 st.write("📧 ", EMAIL)                     
 with col_b:
@@ -61,8 +62,10 @@ with col_b:
                 label="📋 Download Resume",
                 data=PDFbyte,
                 file_name=resume_file.name,
-                mime = "application/octet-stream",) 
-                        
+                mime = "application/octet-stream",)
+                       
+with col_c:
+            st.write(":phone: ", PHONE) 
 # --- SOCIAL LINKS ---
 
 st.write("#")
