@@ -40,7 +40,7 @@ with open(resume_file, "rb") as pdf_file:
 profile_pic = Image.open(profile_pic)
 
 
-# --- HERO SECTION ----
+# --- PROFIL PIC AND DESCRIPTIONS SECTION ----
 col1, col2 = st.columns((1,1) , gap="small")
 with col1:
     st.image(profile_pic, width=230)
