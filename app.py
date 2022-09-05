@@ -53,7 +53,7 @@ with col2:
 
 
 # --- AVAILABILITIES ---
-st.write("---")
+
 col_a, col_b, col_c = st.columns((1.2,0.8,1))
 with col_a:
                 st.write("📧 ", EMAIL)                     
