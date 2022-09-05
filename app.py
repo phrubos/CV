@@ -41,7 +41,7 @@ col1, col2 = st.columns((1,1.5) , gap="small")
 with col1:
     st.image(profile_pic, width=230)
     st.markdown('')
-    col1_, col2_, col3_ = st.columns(3 , gap="small")
+    col1_, col2_, col3_ = st.columns(3 )
     with col2_:
            st.download_button(
                 label="📋 Download Resume",
