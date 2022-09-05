@@ -67,7 +67,7 @@ with col_c:
                 data=PDFbyte,
                 file_name=resume_file.name,
                 mime = "application/octet-stream",) 
-
+st.write("---")
 # --- SOCIAL LINKS ---
 
 st.write("#")
