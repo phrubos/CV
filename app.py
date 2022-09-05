@@ -81,7 +81,7 @@ for x, (platform, link) in zip([FB,LINKD, GITHUB],SOCIAL_MEDIA.items()):
             internal_cols[0].image(Image.open(x), width=20)
             internal_cols[1].write(f"[{platform}]({link})")
             
-            cols[index] = internal_cols
+            cols[index].write(internal_cols)
             index += 1
             
 st.write("---")
