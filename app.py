@@ -7,6 +7,9 @@ current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "CV.pdf"
 profile_pic = current_dir / "assets" / "profile-pic (16).png"
+FB = current_dir / "assets" / "FB.svg.png"
+LINKD = current_dir / "assets" / "Linkd.svg.png"
+GITHUB = current_dir / "assets" / "github.png"
 
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "Digital CV | Peter Hrubos"
@@ -71,6 +74,11 @@ st.write("---")
 # --- SOCIAL LINKS ---
 
 st.write("#")
+cols = st.columns(len([FB,LINKD, GITHUB]))
+for index, x in enumerate([FB,LINKD, GITHUB]):
+            cols[index].image(Image.open(x))
+
+
 cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
