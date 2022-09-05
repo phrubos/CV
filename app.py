@@ -75,10 +75,17 @@ st.write("---")
 
 st.write("#")
 cols = st.columns(len([FB,LINKD, GITHUB]))
-for index, x in enumerate([FB,LINKD, GITHUB]):
-            cols[index].image(Image.open(x), width=20) 
+index = 0
+for x, (platform, link) in zip([FB,LINKD, GITHUB],SOCIAL_MEDIA.items()):
+            internal_cols = st.columns(2)
+            internal_cols[0].image(Image.open(x), width=20)
+            internal_cols[1].write(f"[{platform}]({link})")
             
-
+            cols[index] = internal_cols
+            index += 1
+            
+for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
+    cols[index].write(f"[{platform}]({link})")
 
 cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
