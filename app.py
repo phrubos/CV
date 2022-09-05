@@ -75,15 +75,16 @@ st.write("---")
 # --- SOCIAL LINKS ---
 
 st.write("#")
-# cols = st.columns((1.5,4,1.5,4,1.5,4))
-col1 = st.columns(1)
-with col1:
-            st.image(FB, width=25)
-# index = 0
-# for x in [FB, LINKD, GITHUB]:
-#             index += 1
-#             cols[index].image(x, width=25)
-#             index += 1
+cols = st.columns((1.5,4,1.5,4,1.5,4))
+# col1 = st.columns(1)
+# with col1:
+#             st.image(FB, width=25)
+ index = 0
+ for x in [FB, LINKD, GITHUB]:
+             index += 1
+             pic = Image.open(x)
+             cols[index].image(pic, width=25)
+             index += 1
 
 cols = st.columns((1.5,4,1.5,4,1.5,4))
 index = 0
