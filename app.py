@@ -67,13 +67,14 @@ with col_c:
                 data=PDFbyte,
                 file_name=resume_file.name,
                 mime = "application/octet-stream",) 
-st.write("---")
+
 # --- SOCIAL LINKS ---
 
 st.write("#")
 cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
+st.write("---")
 
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write("#")
