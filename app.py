@@ -119,8 +119,8 @@ st.subheader("Work History")
 st.write("---")
 
 # --- JOB 1
-st.write("🚧", "**Senior Data Analyst | Ross Industries**")
-st.write("02/2020 - Present")
+st.write("🚧", "**CE Productivity Process Manager | Tesco**")
+st.write("07/2018 - Present")
 st.write(
     """
 - ► Used PowerBI and SQL to redeﬁne and track KPIs surrounding marketing initiatives, and supplied recommendations to boost landing page conversion rate by 38%
@@ -131,8 +131,8 @@ st.write(
 
 # --- JOB 2
 st.write("#")
-st.write("🚧", "**Data Analyst | Liberty Mutual Insurance**")
-st.write("01/2018 - 02/2022")
+st.write("🚧", "**Junior CE Productivity Process Manager | Tesco**")
+st.write("03/2018 - 07/2018")
 st.write(
     """
 - ► Built data models and maps to generate meaningful insights from customer data, boosting successful sales eﬀorts by 12%
@@ -143,8 +143,8 @@ st.write(
 
 # --- JOB 3
 st.write("#")
-st.write("🚧", "**Data Analyst | Chegg**")
-st.write("04/2015 - 01/2018")
+st.write("🚧", "**HU Productivity Manager | Tesco**")
+st.write("10/2017 - 03/2018")
 st.write(
     """
 - ► Devised KPIs using SQL across company website in collaboration with cross-functional teams to achieve a 120% jump in organic traﬃc
@@ -152,6 +152,31 @@ st.write(
 - ► Collaborated with analyst team to oversee end-to-end process surrounding customers' return data
 """
 )
+
+# --- JOB 4
+st.write("#")
+st.write("🚧", "**HU Productivity Analyst | Tesco**")
+st.write("08/2015 - 10/2017")
+st.write(
+    """
+- ► Devised KPIs using SQL across company website in collaboration with cross-functional teams to achieve a 120% jump in organic traﬃc
+- ► Analyzed, documented, and reported user survey results to improve customer communication processes by 18%
+- ► Collaborated with analyst team to oversee end-to-end process surrounding customers' return data
+"""
+)
+
+# --- JOB 4
+st.write("#")
+st.write("🚧", "**IT Coordinator | Tesco**")
+st.write("08/2009 - 08/2015")
+st.write(
+    """
+- ► Devised KPIs using SQL across company website in collaboration with cross-functional teams to achieve a 120% jump in organic traﬃc
+- ► Analyzed, documented, and reported user survey results to improve customer communication processes by 18%
+- ► Collaborated with analyst team to oversee end-to-end process surrounding customers' return data
+"""
+)
+
 
 # --- Projects & Accomplishments ---
 st.write("#")
