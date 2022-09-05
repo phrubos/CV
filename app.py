@@ -66,7 +66,8 @@ with col_c:
                 label="📋 Download Resume",
                 data=PDFbyte,
                 file_name=resume_file.name,
-                mime = "application/octet-stream",)  
+                mime = "application/octet-stream",) 
+st.write("---")
 # --- SOCIAL LINKS ---
 
 st.write("#")
