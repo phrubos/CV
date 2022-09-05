@@ -21,7 +21,7 @@ DESCRIPTION2 ="""
 EMAIL = "peter.hrubos.szte@gmail.com"
 PHONE = "+36-20-821-11-77"
 SOCIAL_MEDIA = {
-                "Facebook" : "https://www.facebook.com",
+                " Facebook" : "https://www.facebook.com",
                 "LinkedIn" : "https://www.linkedin.com",
                 "GitHub" : "https://www.github.com"
                 }
