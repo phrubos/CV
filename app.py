@@ -24,9 +24,9 @@ DESCRIPTION2 ="""
 EMAIL = "peter.hrubos.szte@gmail.com"
 PHONE = "+36-20-821-11-77"
 SOCIAL_MEDIA = {
-                "💡 Facebook" : "https://www.facebook.com",
-                "LinkedIn" : "https://www.linkedin.com",
-                "GitHub" : "https://www.github.com"
+                "Facebook" : "https://www.facebook.com/peter.hrubos.9/",
+                "LinkedIn" : "https://linkedin.com/in/hrubos-péter-36a32ba8",
+                "GitHub" : "https://github.com/phrubos"
                 }
 PROJECTS  = {" 💡 Sales Dashboard - Comparing sales across three stores": "https://youtu.be/Sb0A9i6d320"}
 
@@ -58,6 +58,7 @@ with col2:
 # --- AVAILABILITIES ---
 st.write("#")
 col_a, col_b, col_c = st.columns((1.2,0.8,1))
+       
 with col_a:
                 st.write("📧 ", EMAIL)                     
 with col_b:
@@ -76,10 +77,8 @@ st.write("---")
 st.write("#")
 cols = st.columns((1,5,1,5,1,5))
 index = 0
-for x, (platform, link) in zip([FB,LINKD, GITHUB],SOCIAL_MEDIA.items()):
-            cols[index].image(Image.open(x), width=25)
+for (platform, link) in SOCIAL_MEDIA.items():
             index += 1
-            cols[index] = st.markdown("<h1 style='text-align: center; color: red;'>Some title</h1>", unsafe_allow_html=True)
             cols[index].write(f"[{platform}]({link})")
             index += 1
             
