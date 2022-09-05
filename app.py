@@ -75,7 +75,7 @@ st.write("---")
 # --- SOCIAL LINKS ---
 
 st.write("#")
-cols = st.columns((1,8,1,8,1,8))
+cols = st.columns((1,4,1,4,1,4))
 index = 0
 for (platform, link) in SOCIAL_MEDIA.items():
             index += 1
