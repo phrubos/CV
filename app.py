@@ -13,7 +13,7 @@ GITHUB = current_dir / "assets" / "github.png"
 
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "Digital CV | Peter Hrubos"
-PAGE_ICON =  " 👔 "
+PAGE_ICON =  "👔"
 NAME = "Peter Hrubos"
 DESCRIPTION1 = """
             ★ Assisting enterprises by supporting data-driven decision-making.
