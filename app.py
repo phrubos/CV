@@ -9,7 +9,7 @@ resume_file = current_dir / "assets" / "CV.pdf"
 profile_pic = current_dir / "assets" / "profile-pic (16).png"
 FB = current_dir / "assets" / "FB.svg.png"
 LINKD = current_dir / "assets" / "Linkd.svg.png"
-GITHUB = current_dir / "assets" / "git.png"
+GITHUB = current_dir / "assets" / "git.jpg"
 
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "Digital CV | Peter Hrubos"
