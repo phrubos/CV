@@ -41,12 +41,14 @@ col1, col2 = st.columns((1,1.5) , gap="small")
 with col1:
     st.image(profile_pic, width=230)
     st.markdown('')
-    st.download_button(
-      label="📋 Download Resume",
-      data=PDFbyte,
-      file_name=resume_file.name,
-      mime = "application/octet-stream",
-    )
+    col1_, col2_, col3_ = st.columns((1,2,1) , gap="small")
+    with col2_:
+           st.download_button(
+                label="📋 Download Resume",
+                data=PDFbyte,
+                file_name=resume_file.name,
+                mime = "application/octet-stream",
+                        )
 
 
 
