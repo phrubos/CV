@@ -84,12 +84,6 @@ for x, (platform, link) in zip([FB,LINKD, GITHUB],SOCIAL_MEDIA.items()):
             cols[index] = internal_cols
             index += 1
             
-for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
-    cols[index].write(f"[{platform}]({link})")
-
-cols = st.columns(len(SOCIAL_MEDIA))
-for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
-    cols[index].write(f"[{platform}]({link})")
 st.write("---")
 
 # --- EXPERIENCE & QUALIFICATIONS ---
