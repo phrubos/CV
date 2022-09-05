@@ -77,7 +77,7 @@ st.write("#")
 cols = st.columns((1,5,1,5,1,5))
 index = 0
 for x, (platform, link) in zip([FB,LINKD, GITHUB],SOCIAL_MEDIA.items()):
-            cols[index].image(Image.open(x), width=30)
+            cols[index].image(Image.open(x), width=25)
             index += 1
             cols[index].write(f"[{platform}]({link})")
             index += 1
