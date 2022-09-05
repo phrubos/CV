@@ -86,7 +86,7 @@ for x in [FB, LINKD, GITHUB]:
              cols[index].image(pic, width=25)
              index += 1
 
-cols = st.columns((1.5,4,1.5,4,1.5,4))
+cols = st.columns((1.5,4,1.5,4,1.5,3.8))
 index = 0
 for (platform, link) in SOCIAL_MEDIA.items():
             index += 1
