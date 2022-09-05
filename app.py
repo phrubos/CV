@@ -43,18 +43,12 @@ with col1:
     st.markdown('')
 
 
-                        
-
-
-
 with col2:
     st.title(NAME)
     st.write("CE Productivity Process Manager")
     st.write("---")
     st.write(DESCRIPTION1)
     st.write(DESCRIPTION2)
-
-    st.write("#")
 
 
 # --- AVAILABILITIES ---
