@@ -72,9 +72,9 @@ with col_c:
                 file_name=resume_file.name,
                 mime = "application/octet-stream",) 
 st.write("---")
+
 # --- SOCIAL LINKS ---
 
-st.write("#")
 cols = st.columns((2.2,4,1.65,4.1,1.55,3.8))
 # col1 = st.columns(1)
 # with col1:
