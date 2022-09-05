@@ -60,7 +60,7 @@ with col2:
 # --- AVAILABILITIES ---
 col_a, col_b, col_c = st.columns((1.8,1,0.2))
 with col_a:
-                st.write(" - 📧 ", EMAIL)                     
+                st.write("📧 ", EMAIL)                     
 with col_b:
                 st.download_button(
                 label="📋 Download Resume",
