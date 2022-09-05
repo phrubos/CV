@@ -74,7 +74,7 @@ st.write("---")
 # --- SOCIAL LINKS ---
 
 st.write("#")
-cols = st.columns((1,2,1,2,1,2))
+cols = st.columns((1,5,1,5,1,5))
 index = 0
 for x, (platform, link) in zip([FB,LINKD, GITHUB],SOCIAL_MEDIA.items()):
             cols[index].image(Image.open(x), width=20)
