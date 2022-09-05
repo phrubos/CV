@@ -76,6 +76,7 @@ st.write("---")
 
 st.write("#")
 cols = st.columns((1.5,4,1.5,4,1.5,4))
+cols[0].image(x, width=25)
 index = 0
 for x in [FB, LINKD, GITHUB]:
             index += 1
