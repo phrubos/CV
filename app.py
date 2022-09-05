@@ -51,12 +51,12 @@ with col2:
     st.write(DESCRIPTION1)
     st.write(DESCRIPTION2)      
     st.download_button(
-        label=" 📋 Download Resume",
+        label="- 📋 Download Resume",
         data=PDFbyte,
         file_name=resume_file.name,
         mime = "application/octet-stream",
     )
-    st.write(" 📧 ", EMAIL)
+    st.write("- 📧 ", EMAIL)
 
 
 # --- SOCIAL LINKS ---
