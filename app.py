@@ -147,7 +147,7 @@ st.write("🚧", "**HU Productivity Manager | Tesco**")
 st.write("10/2017 - 03/2018")
 st.write(
     """
-- ► Planning, working out and calculating the budget of HU stores for the beginning of next financial year.
+- ► Planning, working out and calculating the budget of HU stores for the next financial year.
 - ► Analyzing, documenting, and reporting irregular results during budget planning.
 - ► Collaborating with leadership team to oversee new processes, and updates which have been built in the new budget.
 """
