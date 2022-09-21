@@ -25,7 +25,7 @@ EMAIL = "peter.hrubos.szte@gmail.com"
 PHONE = "+36-20-821-11-77"
 SOCIAL_MEDIA = {
                 "Facebook" : "https://www.facebook.com/peter.hrubos.9/",
-                "LinkedIn" : "https://linkedin.com/in/hrubos-péter-36a32ba8",
+                "LinkedIn" : "https://linkedin.com/in/hrubospeter",
                 "GitHub" : "https://github.com/phrubos"
                 }
 PROJECTS  = {" 💡 Sales Dashboard - Comparing sales across three stores": "https://youtu.be/Sb0A9i6d320"}
