@@ -5,7 +5,7 @@ from PIL import Image
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
-resume_file = current_dir / "assets" / "CV.pdf"
+resume_file = current_dir / "assets" / "peter_hrubos_cv.pdf"
 profile_pic = current_dir / "assets" / "profile-pic (16).png"
 FB = current_dir / "assets" / "FB.svg.png"
 LINKD = current_dir / "assets" / "Linkd.svg.png"
@@ -96,18 +96,18 @@ st.write("---")
 st.write("#")
 st.subheader("Experience & Qualifications")
 st.write("""
-- ✔️ 7 Years expereince extracting actionable insights from data
+- ✔️ 7 Years experience extracting actionable insights from data
 - ✔️ Experience and knowledge in Python/SQL and Excel (Power Pivot/Query)
 - ✔️ Willingness to learn, strong commitment to continuous development
 - ✔️ Excellent team-player and displaying strong sense of initiative on tasks
 """)
 
-# --- SKILS ---
+# --- SKILLS ---
 st.write("#")
 st.subheader("Hard Skills")
 st.write("""
 - 👩‍💻 Programming: Python (NumPy, Pandas), SQL, Power Query/Pivot
-- 📊 Data Visulization: MS Excel, Plotly
+- 📊 Data Visualization: MS Excel, Plotly
 - 🗄️ Databases: Hadoop, MySQL
 """)
 
@@ -148,7 +148,7 @@ st.write("10/2017 - 03/2018")
 st.write(
     """
 - ► Planning, working out and calculating the budget of HU stores for the next financial year.
-- ► Analyzing, documenting, and reporting irregular results during budget planning.
+- ► Analyzing, documenting and reporting irregular results during budget planning.
 - ► Collaborating with leadership team to oversee new processes, and updates which have been built in the new budget.
 """
 )
@@ -160,7 +160,7 @@ st.write("08/2015 - 10/2017")
 st.write(
     """
 - ► Daily requests calculations which help in making a decision related with process improvement on HU stores.
-- ► Updating „Buttom up” model which allows structure planning.
+- ► Updating „Bottom up” model which allows structure planning.
 - ► Collaborating with process managers to oversee end-to-end processes from stores' labor demand point of view. 
 """
 )
@@ -172,7 +172,7 @@ st.write("08/2009 - 08/2015")
 st.write(
     """
 - ► Maintaining the day to day operations of this logistic center from hardware and software point of view
-- ► Reporting software's failure and hardwares being unable to work with.
+- ► Reporting software's failure and hardware being unable to work with.
 """
 )
 
