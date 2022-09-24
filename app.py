@@ -28,7 +28,7 @@ SOCIAL_MEDIA = {
                 "LinkedIn" : "https://linkedin.com/in/hrubospeter",
                 "GitHub" : "https://github.com/phrubos"
                 }
-PROJECTS  = {" 💡 Sales Dashboard - Comparing sales across three stores": "https://youtu.be/Sb0A9i6d320"}
+#PROJECTS  = {" 💡 Sales Dashboard - Comparing sales across three stores": "https://youtu.be/Sb0A9i6d320"}
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
@@ -177,10 +177,10 @@ st.write(
 )
 
 
-# --- Projects & Accomplishments ---
-st.write("#")
-st.subheader("Projects & Accomplishments")
-st.write("---")
-for project, link in PROJECTS.items():
-    st.write(f"[{project}]({link})")
+# # --- Projects & Accomplishments ---
+# st.write("#")
+# st.subheader("Projects & Accomplishments")
+# st.write("---")
+# for project, link in PROJECTS.items():
+#     st.write(f"[{project}]({link})")
 
