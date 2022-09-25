@@ -96,7 +96,7 @@ st.write("---")
 st.write("#")
 st.subheader("Experience & Qualifications")
 st.write("""
-- ✔️ 7 Years experience extracting actionable insights from data
+- ✔️ 4+ Years experience extracting actionable insights from data
 - ✔️ Experience and knowledge in Python/SQL and Excel (Power Pivot/Query)
 - ✔️ Willingness to learn, strong commitment to continuous development
 - ✔️ Excellent team-player and displaying strong sense of initiative on tasks
@@ -135,9 +135,8 @@ st.write("🚧", "**Junior CE Productivity Process Manager | Tesco**")
 st.write("03/2018 - 07/2018")
 st.write(
     """
-- ► Responsible for measuring, assessing, redesigning processes in order to create a better consumer experience and improving business results.
-- ► Supporting budget calculations for every department in Central Europe
-- ► Helping to design ways of working through productivity guidelines.
+- ► Responsible for measuring, assessing, redesigning processes in order to create a better consumer experience and improving business results (store measurements, process mapping).
+- ► Supporting budget calculations for every department in Central Europe (excel-based productivity models).
 """
 )
 
@@ -147,8 +146,8 @@ st.write("🚧", "**HU Productivity Manager | Tesco**")
 st.write("10/2017 - 03/2018")
 st.write(
     """
-- ► Planning, working out and calculating the budget of HU stores for the next financial year.
-- ► Analyzing, documenting and reporting irregular results during budget planning.
+- ► Planning, working out and calculating the budget of HU stores for the next financial year (excel-based productivity models' outputs).
+- ► Analyzing, documenting and reporting irregular results during budget planning (debugging in processes).
 - ► Collaborating with leadership team to oversee new processes, and updates which have been built in the new budget.
 """
 )
@@ -159,8 +158,8 @@ st.write("🚧", "**HU Productivity Analyst | Tesco**")
 st.write("08/2015 - 10/2017")
 st.write(
     """
-- ► Daily requests calculations which help in making a decision related with process improvement on HU stores.
-- ► Updating „Bottom up” model which allows structure planning.
+- ► Daily requests calculations which help in making a decision related with process improvement on HU stores (excel-based calculations).
+- ► Updating „Bottom up” model which allows structure planning (excel-based productivity models).
 - ► Collaborating with process managers to oversee end-to-end processes from stores' labor demand point of view. 
 """
 )
@@ -172,7 +171,7 @@ st.write("08/2009 - 08/2015")
 st.write(
     """
 - ► Maintaining the day to day operations of this logistic center from hardware and software point of view
-- ► Reporting software's failure and hardware being unable to work with.
+- ► Reporting software's failure and hardware being unable to work with (issue tracking softwares).
 """
 )
 
