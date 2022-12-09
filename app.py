@@ -107,7 +107,7 @@ st.write("#")
 st.subheader("Hard Skills")
 st.write("""
 - 👩‍💻 Programming: Python (NumPy, Pandas), SQL, Power Query/Pivot
-- 📊 Data Visualization: MS Excel, Plotly, Matplotlib, Seaborn
+- 📊 Data Visualization: Tableau, MS Excel, Plotly, Matplotlib, Seaborn
 - 🗄️ Databases: Hadoop, MySQL
 """)
 
