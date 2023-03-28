@@ -122,7 +122,7 @@ st.write("🚧", "**CE Productivity Process Manager | Tesco**")
 st.write("07/2018 - Present")
 st.write(
     """
-- ► Designing and building Data Models by using ETL process (Extract, Transform, Load) and handling Central Europe wide data in order to calculate and predict workload for each activity of a targeted area.
+- ► Designing and building Data Models by using ETL process (Extract, Transform, Load) and handling Central Europe wide data in order to calculate and predict workload for each activity of targeted areas.
 - ► Building models with usage of 'Maynard Operation Sequence Technique' (MOST) and 'Random Activity Sampling' (RAS).
 - ► The adaptable models are able to calculate different scenarios with the change of 1 or more aspects of the work environment. 
 - ► Gathering, transforming, cleaning data using SQL and Python. Continuously investigating data integrity and developing queries.
